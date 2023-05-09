@@ -1,0 +1,58 @@
+// Définir les couleurs
+$primary-color: #2196f3;
+$secondary-color: #ffc107;
+$background-color: #f5f5f5;
+
+// Définir les styles pour le titre principal
+h1 {
+  font-size: 2rem;
+  color: $primary-color;
+  margin-bottom: 1rem;
+}
+
+// Définir les styles pour les propositions de missions
+.proposition {
+  background-color: #fff;
+  border: 1px solid $primary-color;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  h3 {
+    font-size: 1.5rem;
+    color: $primary-color;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    background-color: $secondary-color;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+
+  .accepter {
+    background-color: #4caf50;
+  }
+
+  .refuser {
+    background-color: #f44336;
+  }
+}
+
+// Définir les styles pour le conteneur principal
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: $background-color;
+}

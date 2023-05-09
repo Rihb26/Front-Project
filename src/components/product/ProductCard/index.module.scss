@@ -1,0 +1,6 @@
+.wrapper {
+    flex: 1 33.33%;
+    @media(max-width: 580px) {
+        width: 50%;
+    }
+}

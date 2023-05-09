@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 40px;
+    .content {
+        width: 45%;
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .thumbnail {
+        width: 45%;
+        img {
+            width: 500px;
+        }
+    }
+    .add_to_cart {
+        input {
+            border: 1px solid black;
+            display: block;
+            margin-bottom: 20px;
+        }
+        margin-top: 20px;
+    }
+}
